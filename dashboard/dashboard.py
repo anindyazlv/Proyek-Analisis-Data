@@ -22,7 +22,7 @@ def create_total_users_2012(df):
     total_registered_2012 = df[(df['yr'] == 2012)]['registered'].sum()
     return total_casual_2012, total_registered_2012
 
-day_df = pd.read_csv("main_data.csv")
+day_df = pd.read_csv("/dashboard/main_data.csv")
 st.header(':sparkles: Analisis Penyewaan Sepeda :sparkles:')
 st.subheader("Hubungan Musim dengan Jumlah Penyewa Sepeda Tahun 2011 dan 2012")
 
