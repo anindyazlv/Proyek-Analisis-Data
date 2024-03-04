@@ -18,5 +18,5 @@ pip install matplotlib
 
 ## Run streamlit app
 ```
-streamlit run D:\UB\MBKM\Anindya-Project Akhir
+streamlit run dashboard.py
 ```
