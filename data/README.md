@@ -4,10 +4,19 @@
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+pip install numpy
+
+pip install pandas
+
+pip install seaborn
+
+pip install streamlit
+
+pip install matplotlib
+
 ```
 
-## Run steamlit app
+## Run streamlit app
 ```
-streamlit run dashboard.py
+streamlit run D:\UB\MBKM\Anindya-Project Akhir
 ```
