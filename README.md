@@ -54,6 +54,18 @@ Proyek-Analisis-Data/
 └── README.md
 ```
 
+## Setup environment
+
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy
+pip install pandas
+pip install seaborn
+pip install streamlit
+pip install matplotlib
+```
+
 ## How to Run
 
 ### 1. Clone the repository
